@@ -79,8 +79,8 @@ def save_clips(clips):
 
 def sendMail(sendMailArray):
     # add sender and receiver
-    senderEmail = "homeassistant1231@gmail.com"
-    recvEmail="sebastiangranlund@icloud.com"
+    senderEmail = "senderemail@gmail.com"
+    recvEmail="receiveremail@gmail.com"
     smtpServer = "smtp.gmail.com"
     port = 587  # For starttls
     # Create a secure SSL context
